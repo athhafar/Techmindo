@@ -1,6 +1,6 @@
 <script>
     import {Page} from 'framework7-svelte';
-    </script>
+</script>
     
     <Page>
         <div class="">tes123</div>
@@ -16,5 +16,9 @@
 
         <div class="card">
             <div class="">tes lagi 123</div>          
+        </div>
+
+        <div class="card">
+        
         </div>
     </Page>
