@@ -1,0 +1,24 @@
+{
+  "cwd": "C:\\Users\\athal\\OneDrive\\Dokumen\\MagangTechmindo",
+  "type": [
+    "capacitor"
+  ],
+  "name": "Techmindo",
+  "framework": "svelte",
+  "template": "tabs",
+  "bundler": "vite",
+  "cssPreProcessor": false,
+  "theming": {
+    "customColor": true,
+    "color": "#007aff",
+    "darkMode": false,
+    "iconFonts": true
+  },
+  "customBuild": false,
+  "pkg": "io.framework7.myapp",
+  "capacitor": {
+    "platforms": [
+      "android"
+    ]
+  }
+}
