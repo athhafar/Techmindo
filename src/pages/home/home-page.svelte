@@ -37,7 +37,7 @@ import {Page} from 'framework7-svelte';
     </div>
 
     <div class="card">
-        <div class="">tess</div>
+        <div class="">tess ajaaaaaaaaaaaaaaaaaaaaa</div>
     </div>
 
 
