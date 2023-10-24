@@ -1,5 +1,4 @@
-<<<<<<< Updated upstream
-=======
+
 <script>
 import {Page} from 'framework7-svelte';
 </script>
@@ -23,5 +22,25 @@ import {Page} from 'framework7-svelte';
     <div class="card">
         
     </div>
+
+    <div class="card">
+        
+    </div>
+
+    <div class="card">
+        
+    </div>
+
+    <div class="card">
+        
+    </div>
+
+    <div class="card">
+        
+    </div>
+
+    <div class="card">
+        
+    </div>
 </Page>
->>>>>>> Stashed changes
+
