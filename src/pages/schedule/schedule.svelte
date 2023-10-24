@@ -9,4 +9,12 @@
         <div class="card">
             <div class="">tes lagi 123</div>          
         </div>
+
+        <div class="card">
+            <div class="">tes lagi 123</div>          
+        </div>
+
+        <div class="card">
+            <div class="">tes lagi 123</div>          
+        </div>
     </Page>
