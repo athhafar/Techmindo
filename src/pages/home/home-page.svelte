@@ -13,28 +13,5 @@ import {Page} from 'framework7-svelte';
         
     </div>
 
-    <div class="card">
-        
-    </div>
-
-    <div class="card">
-        
-    </div>
-
-    <div class="card">
-        
-    </div>
-
-    <div class="card">
-        
-    </div>
-
-    <div class="card">
-        
-    </div>
-
-    <div class="card">
-        
-    </div>
 </Page>
 
