@@ -1,0 +1,51 @@
+.card-module {
+    display: flex;
+    flex-direction: column;
+    margin: 32px;
+
+}
+
+.card-head {
+    display: flex;
+    justify-content: flex-start;
+    padding: 8px;
+    background: linear-gradient(to right, #046689, #06405d);
+    border-radius: 6px 6px 0 0;
+}
+
+.card-head img {
+    width: 60px;
+    height: 60px;
+    margin-right: 16px;
+
+}
+
+.card-head .text {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.text .title {
+    font-weight: 600;
+    font-size: large;
+}
+
+.subtitle {
+    font-weight: 100;
+    font-size: smaller;
+}
+
+.card-content {
+    background-color: #ffffff;
+    border-radius: 0 0 6px 6px;
+}
+
+.card-content .card-atm {
+    border-radius: 8px;
+    box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.4);
+    margin: 4px;
+    display: flex;
+    overflow: hidden;
+}
+

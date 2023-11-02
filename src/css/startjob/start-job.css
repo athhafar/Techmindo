@@ -1,0 +1,108 @@
+.card-startJob {
+    display: flex;
+    flex-direction: column;
+    margin: 32px 16px;
+
+}
+
+.card-headerJob {
+    display: flex;
+    justify-content: flex-start;
+    padding: 8px;
+    background: linear-gradient(to right, #046689, #06405d);
+}
+
+.card-headerJob img {
+    width: 60px;
+    height: 60px;
+    margin-right: 16px;
+
+}
+
+.card-headerJob .text {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.card-headerJob .title {
+    font-weight: 600;
+    font-size: large;
+}
+
+.card-headerJob .subtitle {
+    font-weight: 100;
+    font-size: smaller;
+}
+
+
+.card-content {
+    background-color: white;
+}
+
+
+.container-content {
+    background-color: #ebebeb;
+    margin: 8px;
+    padding: 8px 32px 8px 32px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.button {
+    border-radius: 4px;
+    color: white;
+    background: linear-gradient(to right, #046689, #06405d);
+}
+
+
+.card {
+    border-radius: 8px;
+    box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.4);
+    margin: 8px;
+    padding: 4px 16px 4px 16px;
+    font-weight: 700;
+    background-color: #ffffff;
+}
+
+.card .infobank {
+    display: flex;
+    flex-direction: column;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: #f4f4f4;
+    display: block;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.grid-executed {
+    margin: 32px;
+    justify-content: space-between;
+    grid-gap: 32px;
+}
+
+.card-executed {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 100%;
+    background: linear-gradient(to bottom, #066e8e, #063954);
+    border-radius: 10px;
+    padding: 16px;
+}
+
+.card-executed .text {
+    margin-top: 8px;
+    color: white;
+    font-size:x-small;
+}
+
+.button-start .button {
+    margin: 0px 16px 16px 16px;
+}

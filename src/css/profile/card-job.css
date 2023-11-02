@@ -1,0 +1,38 @@
+.grid-job {
+    margin-left: 16px;
+    margin-right: 16px;
+    justify-content: space-between;
+    grid-gap:16px;
+}
+
+.card-job {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    background: linear-gradient(to bottom, #066e8e, #063954);
+    border-radius: 10px;
+    padding: 16px;
+}
+
+.card-job .text {
+    margin-top: 8px;
+    color: white;
+    font-size:larger;
+}
+
+.card-job-container {
+    position: relative;
+    padding: 0px 16px 0px 16px;
+}
+
+
+.card-job .badge {
+    background-color:red;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    font-size:larger;
+}

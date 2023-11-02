@@ -1,0 +1,85 @@
+.card-finishprepare {
+    display: flex;
+    flex-direction: column;
+    margin: -16px;
+}
+
+.card-headfinish {
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    padding: 8px;
+    background: linear-gradient(to right, #046689, #06405d);
+    border-radius: 6px 6px 0 0;
+}
+
+.card-headfinish img {
+    width: 40px;
+    height: 40px;
+    margin-right: 16px;
+}
+
+.card-headfinish .textfinish {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+
+.textfinish .title {
+    font-weight: 600;
+    font-size: medium;
+}
+
+.textfinish .subtitle {
+    font-weight: 300;
+    font-size:small;
+}
+
+.card-finishprepare .card-content {
+    background-color: #fefefe;
+    padding: 8px;
+}
+
+.card-finishprepare .card {
+    border-radius: 8px;
+    box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.4);
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    background-color: #ffffff;
+    font-weight: 500;
+}
+
+.card .card-text {
+    margin-bottom: 32px;
+}
+
+.card-finishprepare .card-footer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 8px;
+    background: linear-gradient(to right, #046689, #06405d);
+    border-radius: 0px 0px 6px 6px;
+    color: #ffffff;
+}
+
+
+.card-footer .button {
+    border-radius: 4px;
+    color: white;
+    background: linear-gradient(to right, #05698b, #02425c);
+    padding: 16px 8px;
+    font-size: medium;
+    box-shadow: 3px 2px 2px 0px rgba(0, 0, 0, 0.5);
+
+}
+
+.custom-dialog {
+    width: 95%;
+    left: 2.5%;
+    margin-left: 0;
+    background-color: #ffffff;
+    border-radius: 4px;
+}

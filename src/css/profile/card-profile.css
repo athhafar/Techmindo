@@ -1,0 +1,18 @@
+.card-profile {
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    margin: 5px 16px 16px 16px;
+    padding: 16px;     
+}
+
+.card-column {
+    margin-left: 16px;
+    flex-direction: column;
+}
+
+.card-column .name {
+    font-weight: 600;
+    font-size:large;
+}
+

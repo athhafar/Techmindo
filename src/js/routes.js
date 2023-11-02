@@ -5,6 +5,14 @@ import FormPage from '../pages/form.svelte';
 import CatalogPage from '../pages/catalog.svelte';
 import ProductPage from '../pages/product.svelte';
 import SettingsPage from '../pages/settings.svelte';
+import ProfilePage from '../pages/profile/profile-page.svelte';
+import ModulePage from '../pages/module/module.svelte'
+import StartJob from '../pages/startjob/start-job.svelte'
+import prepareJob from '../pages/preparejob/prepare-job.svelte'
+import finishPrepare from '../pages/finishedprepare/finish-prepare-job.svelte'
+import newJob from '../pages/newjob/new-job.svelte'
+import detailNewJob from '../pages/newjob/detail-new-job.svelte'
+import toolbar from '../pages/toolbar/toolbaar.svelte'
 
 import DynamicRoutePage from '../pages/dynamic-route.svelte';
 import RequestAndLoad from '../pages/request-and-load.svelte';
@@ -12,7 +20,7 @@ import NotFoundPage from '../pages/404.svelte';
 
 var routes = [
   {
-    path: '/',
+    path: '/f',
     component: HomePage,
   },
   {
@@ -35,7 +43,38 @@ var routes = [
     path: '/settings/',
     component: SettingsPage,
   },
-
+  {
+    path: '/b',
+    component: ProfilePage,
+  },
+  {
+    path: '/v',
+    component: ModulePage,
+  },
+  {
+    path: '/m',
+    component: StartJob,
+  },
+  {
+    path: '/v',
+    component: prepareJob,
+  },
+  {
+    path: '/b',
+    component: finishPrepare,
+  },
+  {
+    path: '/v',
+    component: newJob,
+  },
+  {
+    path: '/b',
+    component: detailNewJob,
+  },  
+  {
+    path: '/',
+    component: toolbar,
+  }, 
   {
     path: '/dynamic-route/blog/:blogId/post/:postId/',
     component: DynamicRoutePage,

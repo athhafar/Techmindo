@@ -1,0 +1,61 @@
+.card-detailnewjob {
+    display: flex;
+    flex-direction: column;
+    margin: 32px 16px;
+
+}
+
+.card-headDetail {
+    display: flex;
+    justify-content: flex-start;
+    padding: 8px;
+    background: linear-gradient(to right, #046689, #06405d);
+}
+
+.card-headDetail img {
+    width: 60px;
+    height: 60px;
+    margin-right: 16px;
+
+}
+
+.card-headDetail .text {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.card-headDetail .title {
+    font-weight: 600;
+    font-size: large;
+}
+
+.card-headDetail .subtitle {
+    font-weight: 100;
+    font-size: smaller;
+}
+
+
+.card-content {
+    background-color: white;
+    padding: 8px;
+}
+
+
+.card-detail {
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+    padding: 16px;
+}
+
+
+.card-detail .button {
+    border-radius: 4px;
+    color: white;
+    background: linear-gradient(to right, #05698b, #02425c);
+    padding: 16px 8px;
+    font-size: medium;
+    box-shadow: 3px 2px 2px 0px rgba(0, 0, 0, 0.5);
+
+}

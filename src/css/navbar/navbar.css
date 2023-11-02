@@ -1,0 +1,53 @@
+.NavBlack {
+    background-color: black;
+    height: 30px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.NavBlue {
+    background: rgb(6, 87, 117);
+    background: linear-gradient(90deg, rgba(6, 87, 117, 1) 13%, rgba(6, 67, 96, 1) 65%, rgba(6, 57, 84, 1) 91%);
+    height: 60px;
+    position: relative;
+}
+
+.status {
+    display: flex;
+    background-color: #f6f6f8;
+    padding: 6px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 0 0 4px 4px;
+    color: grey;
+    align-items: center;
+
+}
+
+.text {
+    font-weight: 600;
+    font-size: small;
+}
+
+.container-circle {
+    width: 8px;
+    height: 8px;
+    border-radius: 50px;
+    background-color: #7fd27e;
+    margin-right: 6px;
+}
+
+
+.NavBlue {
+    display: flex;
+    align-items: center;
+    font-size: large;
+    color: white;
+    padding-left: 16px;
+}
+
+.NavBlue .title {
+    margin-left: 32px;
+}
